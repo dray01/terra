@@ -1,5 +1,7 @@
 provider "google" {
-  region = "${module.variables.region[terraform.workspace]}"
+  project     = "bd-lab-45457"
+  region      = "australia-southeast1-a"
+}
 }
 
 terraform {
