@@ -2,7 +2,6 @@ provider "google" {
   project     = "bd-lab-45457"
   region      = "australia-southeast1-a"
 }
-}
 
 terraform {
   required_version = "0.11.13"
